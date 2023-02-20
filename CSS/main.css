@@ -1,0 +1,43 @@
+:root {
+    --Easy: #1e6303;
+    --Normal: #bfc512;
+    --Hard: #ba1e13;
+    --Impossible: #780e06;
+    --normalTextColor: white;
+
+    --italic: italic;
+
+    /* Please Use the vars with the 
+        font-weight: var(--variable);
+    */
+
+    --light: 300;
+    --normal: 400;
+    --bold: 500;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 90px;
+}
+
+.text_Easy {
+    color: var(--Easy);
+}
+
+.text_Normal {
+    color: var(--Normal);
+}
+
+.text_Hard {
+    color: var(--Hard);
+}
+
+.text_Impossible {
+    color: var(--Impossible);
+}

@@ -1,0 +1,98 @@
+/* Normal button format */
+#startButton, #submitButton, #gameoverButton, #difficultyButton, #calButton {
+    color: var(--normalTextColor);
+    border: none;
+    font-weight: var(--bold);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 23px;
+    transition: opacity 0.15s,
+        box-shadow 0.25s;
+}
+
+#startButton:hover, #submitButton:hover, #gameoverButton:hover, #difficultyButton:hover, #calButton:hover {
+    opacity: 0.9;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+#startButton:active, #submitButton:active, #gameoverButton:active, #difficultyButton:active, #calButton:hover {
+    opacity: 0.7;
+}
+
+/* Selection button format */
+
+#selectionButtons {
+    display: inline-block;
+    margin-right: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    height: 280px;
+    width: 340px;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    transition: color 0.2s ease-in,
+        opacity 0.2s ease-in-out,
+            text-decoration 0.2s;
+    position: relative;
+}
+
+#selectionButtons:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+    color: green;
+}
+
+#selectionButtons:active {
+    opacity: 0.5;
+}
+
+#gameoverButton {
+    background-color: #1b6b40;
+}
+
+#calButton {
+    color: var(--normalTextColor);
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #E4A010;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+#startButton {
+    background-color: #3F888F;
+}
+
+#difficultyButton {
+    background-color: #DC9D00;
+    color: var(--normalTextColor);
+}
+
+#submitButton {
+    background-color: #3072AE;
+}
+
+.sqrtImage{
+    display: block;
+    position: absolute;
+    top: 0;
+}
+
+.cbrtImage {
+    display: block;
+    position: absolute;
+    top: 37px;
+}
+
+.Card-body {
+    display: block;
+    cursor: pointer;
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 100px;
+}

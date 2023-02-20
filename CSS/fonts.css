@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Latin Modern Math';
+    src: url(/Fonts/latinmodern-math.otf);
+}
+
+#KaTeXElement {
+    font-size: 18;
+}
+
+#textArea, #KaTeXElement {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+*, *::before, *::after {
+    font-family: 'Roboto', sans-serif;
+}
+
+#bold {
+    font-weight: 500;
+}
