@@ -258,6 +258,7 @@ const ifCorrect = (Answer, type) => {
         gameOverButton.setAttribute('id', 'flex2');
         gameOverButton.innerHTML = `<button id='gameoverButton' onclick='Start2(${type}, ${ifcorrect});'>Play Again</button>`;
         document.body.append(gameOverButton);
+        score = 0;
     };
 };
 
